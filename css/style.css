@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+nav{
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.702), rgb(233, 230, 230), rgba(0, 0, 255, 0.694));
+    padding:  8px 10px;
+}
+
+nav a {
+    padding-left: 5px ;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(7, 7, 170);
+}
+
+a:hover {
+    color: white;
+    transition: 1.5s;
+}
+
+
+.centralizado {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.item {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: scale(1.5);
+  }
