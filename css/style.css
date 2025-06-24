@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-nav{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(224, 221, 221);
+}
+
+header{
     background-image: linear-gradient(to left, rgba(0, 0, 255, 0.702), rgb(233, 230, 230), rgba(0, 0, 255, 0.694));
     padding:  8px 10px;
 }
@@ -19,21 +24,72 @@ a:hover {
 
 
 .centralizado {
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    font-size: 30px;
 }
 
-#content {
+.content {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
+    padding: 15px;
+    
 }
 
-.item {
+article {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     transition: transform 0.3s ease;
+    padding: 15px 0px 10px 10px ;
+    display: grid;
+    gap: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px 10px;
   }
   
-  .item:hover {
-    transform: scale(1.5);
+  article:hover {
+    transform: scale(1.1);
+  }
+
+  p {
+    margin: 3px;
+  }
+
+  small{
+    background-color: rgba(128, 128, 128, 0.63);
+  }
+
+  form{
+    text-align: center;
+    background-color: rgb(9, 9, 212);
+    padding: 30px;
+  }
+
+  input {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+  }
+
+  #Enviar {
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    color: blue;    
+  }
+
+
+  footer{
+    text-align: center;
+  }
+
+  .footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgb(17, 0, 255);
   }
